@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+header, main, footer {
+  width: 75%;
+  margin: auto;
+}
+
+/* Header */
+
+/* Main */
+
+/* Footer */
