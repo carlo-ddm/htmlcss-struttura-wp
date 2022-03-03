@@ -75,6 +75,8 @@ footer {
   margin-bottom: 20px;
 }
 
-/* Ricorda: clarfix non funzionava perchè avevo tolto solo l'altezza fissa al div contenitore e non al main */
+/* Ricorda: clarfix non funzionava perchè avevo tolto l'altezza fissa solo al div contenitore, non al main */
 
-/* Ricorda suggerimento Simone: non impostare mail altezze fisse ai contenitori. Le altezze fisse devono essere impostate ai soli contenuti e devono essere impostate in px -- è insidioso in % -- */
+/* Ricorda suggerimento Simone: non impostare mai altezze fisse ai contenitori. Le altezze fisse devono essere impostate ai soli contenuti e devono essere impostate in px -- è insidioso in % -- */
+
+/* Imoistare margini direttamente in body evitanto il passaggio qui costruito [VEDI: header, main, footer */
