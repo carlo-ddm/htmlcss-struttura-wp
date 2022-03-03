@@ -11,7 +11,28 @@ header, main, footer {
 }
 
 /* Header */
+.container-top {
+  background-color: #DD5CE0;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+  /* Jumbotron */
+  .jumbotron {
+    background-color: #DACF67;
+    height: 500px;
+    margin-bottom: 20px;
+  }
 
 /* Main */
+main {
+  background-color: #9CC4E1;
+  height: 600px;
+  margin-bottom: 10px;
+}
 
 /* Footer */
+footer {
+  background-color: #7300FF;
+  height: 50px;
+}
