@@ -16,14 +16,10 @@ header, main, footer {
   clear: both;
 }
 
-.container {
-  padding-bottom: 20px;
-}
-
 .col {
   background-color: #9CC4E1;
   width: 20%;
-  height: 200px;
+  height: 700px;
 }
 
 .col.dx {
@@ -40,8 +36,7 @@ header, main, footer {
   background-color: #9CC4E1;
   float: left;
   width: 56%;
-  height: 100px;
-  margin-bottom: 20px;
+  height: 700px;
 }
 
 /* Header */
@@ -62,14 +57,13 @@ header, main, footer {
 /* Main */
 main {
   background-color: #0D6EFF;
-  height: 600px;
   margin-bottom: 10px;
   padding-bottom: 20px;
 }
 
 main .top {
   background-color: #9CC4E1;
-  height: 15%;
+  height: 100px;
   margin-bottom: 20px;
 }
 
@@ -77,4 +71,7 @@ main .top {
 footer {
   background-color: #7300FF;
   height: 50px;
+  margin-bottom: 20px;
 }
+
+/* Ricorda: clarfix non funzionava perchè avevo tolto solo l'altezza fissa al div contenitore e non al main */
