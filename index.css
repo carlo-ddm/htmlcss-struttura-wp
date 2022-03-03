@@ -5,11 +5,12 @@
 }
 
 /* General */
-header, main, footer {
+body {
   width: 75%;
   margin: auto;
 }
 
+/* Genetal --> Main */
 .clearfix::after {
   content: "";
   display: table;
@@ -22,14 +23,14 @@ header, main, footer {
   height: 700px;
 }
 
-.col.dx {
-  float: right;
-  margin-left: 2%;
-}
-
-.col.sx {
+.col.left {
   float: left;
   margin-right: 2%;
+}
+
+.col.right {
+  float: right;
+  margin-left: 2%;
 }
 
 .center {
@@ -79,4 +80,6 @@ footer {
 
 /* Ricorda suggerimento Simone: non impostare mai altezze fisse ai contenitori. Le altezze fisse devono essere impostate ai soli contenuti e devono essere impostate in px -- è insidioso in % -- */
 
-/* Imoistare margini direttamente in body evitanto il passaggio qui costruito [VEDI: header, main, footer */
+/* Impostare margini direttamente in body evitando il passaggio qui costruito [VEDI: header, main, footer]
+{Fixed}
+*/
