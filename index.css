@@ -10,11 +10,46 @@ header, main, footer {
   margin: auto;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  padding-bottom: 20px;
+}
+
+.col {
+  background-color: #9CC4E1;
+  width: 20%;
+  height: 200px;
+}
+
+.col.dx {
+  float: right;
+  margin-left: 2%;
+}
+
+.col.sx {
+  float: left;
+  margin-right: 2%;
+}
+
+.center {
+  background-color: #9CC4E1;
+  float: left;
+  width: 56%;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
 /* Header */
 .container-top {
   background-color: #DD5CE0;
   height: 100px;
   margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
   /* Jumbotron */
@@ -29,6 +64,13 @@ main {
   background-color: #0D6EFF;
   height: 600px;
   margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+main .top {
+  background-color: #9CC4E1;
+  height: 15%;
+  margin-bottom: 20px;
 }
 
 /* Footer */
