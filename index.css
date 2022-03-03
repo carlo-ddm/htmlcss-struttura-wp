@@ -77,4 +77,4 @@ footer {
 
 /* Ricorda: clarfix non funzionava perchè avevo tolto solo l'altezza fissa al div contenitore e non al main */
 
-/* Ricorda suggerimento Simone: non impostare mail altezze fisse ai contenitori. Le altezze fisse devono essere impostate ai soli contenuti e devono essere impostate in px - è insidioso in % - */
+/* Ricorda suggerimento Simone: non impostare mail altezze fisse ai contenitori. Le altezze fisse devono essere impostate ai soli contenuti e devono essere impostate in px -- è insidioso in % -- */
